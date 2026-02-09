@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "COLOQUE_SEU_TOKEN_AQUI"
+TOKEN = "SEU_TOKEN_REAL_DO_BOTFATHER"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🔥 MAGRO BAC BO GOLD ATIVO!")
