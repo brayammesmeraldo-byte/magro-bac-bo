@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>MAGRO BAC BO — GOLD EDITION</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🏆 MAGRO BAC BO</h1>
+    <p class="subtitle">GOLD EDITION — Painel de Controle 🎰</p>
+
+    <div class="card">
+      <h2>🎯 Registrar Resultado</h2>
+      <div class="buttons">
+        <button class="btn player" onclick="addResult('P')">Player</button>
+        <button class="btn banker" onclick="addResult('B')">Banker</button>
+        <button class="btn tie" onclick="addResult('T')">Tie</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📊 Estatísticas</h2>
+      <div id="stats"></div>
+    </div>
+
+    <div class="card">
+      <h2>🔥 Sequências</h2>
+      <div id="streaks"></div>
+    </div>
+
+    <div class="card">
+      <h2>💡 Tendência Atual</h2>
+      <div id="suggest"></div>
+    </div>
+
+    <div class="card">
+      <h2>📜 Histórico</h2>
+      <div id="history" class="history"></div>
+    </div>
+
+    <div class="logout">
+      <a href="/logout">🚪 Sair</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
